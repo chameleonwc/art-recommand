@@ -1,0 +1,13 @@
+.Header {
+  background-color: #fff;
+  height: 20px;
+  padding: 20px;
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #e6e6e6;
+  border-bottom-width: 1px;
+}
+
+body {
+    background-color: #fafafa;
+}
