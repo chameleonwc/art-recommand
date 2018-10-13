@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Card, Row, Col } from 'antd';
+import { Row, Col } from 'antd';
+import MyCard from '../components/re-card/index';
 import './index.css';
 
 class Recommond extends Component {
@@ -9,13 +10,22 @@ class Recommond extends Component {
             <div className='mainDiv'>
                 <Row style={{ marginTop: 30 }}>
                     <Col span={5} offset={3}>
-                        <Card style={{ height: 250 }}/>
+                        <MyCard />
                     </Col>
                     <Col span={5} offset={1}>
-                        <Card style={{ height: 250 }}/>
+                        <MyCard />
                     </Col>
                     <Col span={5} offset={1}>
-                        <Card style={{ height: 250 }}/>
+                        <MyCard />
+                    </Col>
+                </Row>
+
+                <Row style={{ marginTop: 30 }}>
+                    <Col span={5} offset={3}>
+                        <MyCard />
+                    </Col>
+                    <Col span={5} offset={1}>
+                        <MyCard />
                     </Col>
                 </Row>
                 
